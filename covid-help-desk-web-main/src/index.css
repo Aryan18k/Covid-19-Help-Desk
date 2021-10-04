@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.margin-b-10 {
+    margin-bottom: 10px;
+}
+.margin-b-20 {
+    margin-bottom: 20px;
+}
+.margin-b-30 {
+    margin-bottom: 30px;
+}
+.error-text {
+    color: red;
+}
+.width-100 {
+    width: 100%;
+}
+
+/*Scroll Bar styling*/
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(146, 146, 146);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    width: 25px;
+}
+.heading-big {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.heading-medium {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.heading-small {
+    font-weight: 400;
+    font-size: 1rem;
+}

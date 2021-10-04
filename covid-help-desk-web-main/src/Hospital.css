@@ -1,0 +1,51 @@
+.hospital-cont {
+    background-color: white;
+    box-shadow: 6px 6px 20px #ccc;
+    color: rgb(65, 65, 65);
+}
+.hospital-vac-phc {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.hospital-vaccine {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+.vaccination-center-text {
+    color: rgb(7, 108, 148);
+}
+.hospital-vac-phc {
+    float: right;
+    position: relative;
+    right: -27%;
+}
+.hospital-card-title-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.app-card-vaccine-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+.govt-hospital-text {
+    color: green;
+}
+.available {
+    color: rgb(22, 133, 22);
+    font-weight: 500;
+}
+.unavailable {
+    color: rgb(236, 104, 104);
+    font-weight: 500;
+}

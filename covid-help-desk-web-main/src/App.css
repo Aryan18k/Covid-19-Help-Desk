@@ -1,0 +1,98 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: rgb(249, 249, 249);
+}
+.app-header {
+    background-color: #1e78d3;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100vw;
+}
+.app-header p {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.app-header-search {
+    width: 220px;
+    height: 32px;
+    border: 0.5px solid #2678ca;
+    background-color: #5398dd;
+    padding: 7px;
+    color: white;
+    border-radius: 4px;
+}
+.app-header-search:focus {
+    outline: none;
+}
+.app-header-search::placeholder {
+    color: white;
+}
+.app-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px;
+    padding-right: 20px;
+}
+
+.hospital-cont {
+    width: 55vw;
+    padding: 17px;
+    border: 1px groove lightgray;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+.app-intermediate {
+    margin-right: 30px;
+}
+.app-notfound {
+    width: 70vw;
+}
+.hospital-cont:hover {
+    cursor: pointer;
+}
+
+.app-modal-contents {
+    padding: 20px;
+    background-color: white;
+    width: 30vw;
+    min-width: 200px;
+}
+.app-dashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 77vh;
+    width: 25vw;
+}
+.app-select-area-cont {
+    margin-top: 20px;
+}
+.app-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(56, 46, 46);
+    padding: 25px;
+    width: 99vw;
+}
+.app-reachus {
+    text-decoration: none;
+    color: white;
+    margin-right: 3vw;
+}

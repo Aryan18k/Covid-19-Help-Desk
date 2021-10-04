@@ -1,0 +1,79 @@
+.hospital-outer-cont {
+    background-color: white;
+    min-height: 100vh;
+}
+.hospital-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 100vw;
+    background-color: #3f51b5;
+    color: white;
+    align-items: center;
+}
+.hospital-header-title {
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+.hospital-header-link-to-home {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.hospital-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 7px;
+    padding-right: 20px;
+    background-color: white;
+}
+.hospital-intermediate {
+    margin-right: 7vw;
+}
+.hospital-show-cont,
+.hospital-edit-cont {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin-left: 15vw;
+    padding: 20px;
+}
+.hospital-show-cont {
+    color: rgb(45, 45, 45);
+}
+.hospital-signout-btn {
+    width: 150px;
+}
+.hospital-edit-text {
+    margin-bottom: 15px;
+}
+.hospital-panel-cont {
+    border: 0.5px solid lightgray;
+    padding: 20px;
+    border-radius: 4px;
+    /* box-shadow: 6px 6px 20px #ccc; */
+}
+.hospital-panel-cont:hover {
+    -moz-box-shadow: 1px 1px 1px #ccc;
+    -webkit-box-shadow: 1px 1px 1px #ccc;
+    box-shadow: 1px 1px 1px #ccc;
+}
+.hospital-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border: 0.5px solid lightgray;
+    padding: 20px;
+    border-radius: 4px;
+    align-items: center;
+}
+.hospital-details:hover {
+    box-shadow: 1px 1px 1px #ccc;
+}
+.hospital-panel-account-settings {
+    margin-right: 5vw;
+    width: 50vw;
+}
